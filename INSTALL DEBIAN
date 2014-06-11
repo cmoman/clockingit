@@ -25,7 +25,7 @@ gem install ZenTest -v 4.1.4 -r
 gem install icalendar -v 1.1.0 -r
 gem install mysql -v 2.7 -r
 
-wget https://github.com/joubertredrat/clockingit/archive/master.tar.gz
+wget https://github.com/cmoman/clockingit/archive/master.tar.gz
 
 tar -zxvf master.tar.gz
 
