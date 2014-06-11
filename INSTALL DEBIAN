@@ -13,12 +13,14 @@ apt-get install graphicsmagick-libmagick-dev-compat imagemagick ruby1.8 ruby1.8-
 apt-get install ruby-switch
 ruby-switch --set ruby1.8
 
-gem install gchartrb RedCloth json tzinfo echoe fastercsv test-spec ferret hoe mongrel eventmachine -r
-gem install gchartrb RedCloth json tzinfo echoe fastercsv test-spec ferret hoe mongrel eventmachine -r
-gem install gchartrb RedCloth json tzinfo echoe fastercsv test-spec ferret hoe mongrel eventmachine -r
-gem install gchartrb RedCloth json tzinfo echoe fastercsv test-spec ferret hoe mongrel eventmachine -r
-gem install gchartrb RedCloth json tzinfo echoe fastercsv test-spec ferret hoe mongrel eventmachine -r
-gem install gchartrb RedCloth json tzinfo echoe fastercsv test-spec ferret hoe mongrel eventmachine -r
+gem install gchartrb  tzinfo  fastercsv test-spec hoe -r
+gem install RedCloth  -r
+gem install json  -r
+gem install echoe  -r
+gem install ferret -r
+gem install mongrel -r
+gem install eventmachine -r
+#gem install gchartrb RedCloth json tzinfo echoe fastercsv test-spec ferret hoe mongrel eventmachine -r
 gem install ZenTest -v 4.1.4 -r
 gem install icalendar -v 1.1.0 -r
 gem install mysql -v 2.7 -r
