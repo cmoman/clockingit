@@ -16,6 +16,9 @@ ruby-switch --set ruby1.8
 gem install gchartrb RedCloth json tzinfo echoe fastercsv test-spec ferret hoe mongrel eventmachine -r
 gem install gchartrb RedCloth json tzinfo echoe fastercsv test-spec ferret hoe mongrel eventmachine -r
 gem install gchartrb RedCloth json tzinfo echoe fastercsv test-spec ferret hoe mongrel eventmachine -r
+gem install gchartrb RedCloth json tzinfo echoe fastercsv test-spec ferret hoe mongrel eventmachine -r
+gem install gchartrb RedCloth json tzinfo echoe fastercsv test-spec ferret hoe mongrel eventmachine -r
+gem install gchartrb RedCloth json tzinfo echoe fastercsv test-spec ferret hoe mongrel eventmachine -r
 gem install ZenTest -v 4.1.4 -r
 gem install icalendar -v 1.1.0 -r
 gem install mysql -v 2.7 -r
