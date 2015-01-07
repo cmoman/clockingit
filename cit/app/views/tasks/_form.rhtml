@@ -257,10 +257,10 @@ function reset_owners() {
              end %>
           <% if @task.repeat && @task.repeat.length > 0 %>
           <%= calendar_field 'task', 'due_at', { :class => 'date tooltip', :field_title => date_tooltip, :button_title => _('Show Calendar'), :value => @task.repeat_summary },
-          { :ifFormat => current_user.date_format, :firstDay => 1, :range => [2006, 2020], :step => 1, :showOthers => true } %>
+          { :ifFormat => current_user.date_format, :firstDay => 1, :range => [2006, 2010], :step => 1, :showOthers => true } %>
           <% else %>
           <%= calendar_field 'task', 'due_at', { :class => 'date tooltip', :field_title => date_tooltip, :button_title => _('Show Calendar') },
-          { :ifFormat => current_user.date_format, :firstDay => 1, :range => [2006, 20220], :step => 1, :showOthers => true } %>
+          { :ifFormat => current_user.date_format, :firstDay => 1, :range => [2006, 2010], :step => 1, :showOthers => true } %>
           <% end %>
           <br/>
         <% else %>

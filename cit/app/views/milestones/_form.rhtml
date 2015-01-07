@@ -3,7 +3,7 @@
 <!--[form:milestone]-->
 <label for="milestone_name"><%=_ 'Name' %></label><%= text_field 'milestone', 'name'  %><br/>
 <label for="milestone_due_at"><%=_ 'Due Date' %></label><%= calendar_field 'milestone', 'due_at', { :class => 'date', :field_title => 'Due Date', :button_title => 'Show Calendar' },
-        { :ifFormat => current_user.date_format, :firstDay => 1, :range => [2006, 2020], :step => 1, :showOthers => true }
+        { :ifFormat => current_user.date_format, :firstDay => 1, :range => [2006, 2010], :step => 1, :showOthers => true }
         %><br/>
 
 <label for="milestone_user_id"><%=_ 'Owner' %></label><%= select 'milestone', 'user_id', User.find(:all, :order => 'name',
