@@ -139,9 +139,9 @@
 <div id="date_range" style="display:none;">
 <% end %>
 <label for="report_start_date"><%=_ 'From' %></label><%= calendar_field 'report', 'start_date', { :class => 'date', :field_title => 'Start Date', :button_title => _('Show Calendar'), :value => (params[:report] && params[:report][:start_date]) ? params[:report][:start_date] : ""},
-        { :ifFormat => current_user.date_format, :firstDay => 1, :range => [2005, 2010], :step => 1, :showOthers => true  }%><br/>
+        { :ifFormat => current_user.date_format, :firstDay => 1, :range => [2005, 2020], :step => 1, :showOthers => true  }%><br/>
 <label for="report_stop_date"><%=_ 'To' %></label><%= calendar_field 'report', 'stop_date', { :class => 'date', :field_title => 'Stop Date', :button_title => _('Show Calendar'), :value => (params[:report] && params[:report][:stop_date]) ? params[:report][:stop_date] : "" },
-        { :ifFormat => current_user.date_format, :firstDay => 1, :range => [2005, 2010], :step => 1, :showOthers => true  }%><br/>
+        { :ifFormat => current_user.date_format, :firstDay => 1, :range => [2005, 2020], :step => 1, :showOthers => true  }%><br/>
 </div>
 
 <div id="subtotals"<%= " style=\"display:none;\"" if params[:report].nil? || !["3", "2"].include?(params[:report][:type])  %>>
